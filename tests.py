@@ -2,7 +2,6 @@ from echo_client import client
 import socket
 import unittest
 
-
 class EchoTestCase(unittest.TestCase):
     """tests for the echo server and client"""
 
