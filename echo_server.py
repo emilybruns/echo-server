@@ -85,7 +85,7 @@ def server(log_buffer=sys.stderr):
                 #       be hit. Use that opportunity to close the socket you
                 #       created above when a client connected.
 
-                sock.close()
+                conn.close()
                 print(
                     'echo complete, client connection closed')
                 break
